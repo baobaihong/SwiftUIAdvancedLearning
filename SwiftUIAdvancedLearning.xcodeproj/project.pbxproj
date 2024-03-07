@@ -12,6 +12,7 @@
 		3380761C2B98763600DEADAB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3380761B2B98763600DEADAB /* Preview Assets.xcassets */; };
 		338076232B98768400DEADAB /* ViewModifierBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 338076222B98768400DEADAB /* ViewModifierBootcamp.swift */; };
 		96265BF22B98BA4D000F845A /* ButtonStyleBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96265BF12B98BA4D000F845A /* ButtonStyleBootcamp.swift */; };
+		96265BF42B999D24000F845A /* AnyTrasitionBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96265BF32B999D24000F845A /* AnyTrasitionBootcamp.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		3380761B2B98763600DEADAB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		338076222B98768400DEADAB /* ViewModifierBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModifierBootcamp.swift; sourceTree = "<group>"; };
 		96265BF12B98BA4D000F845A /* ButtonStyleBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonStyleBootcamp.swift; sourceTree = "<group>"; };
+		96265BF32B999D24000F845A /* AnyTrasitionBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyTrasitionBootcamp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 				338076142B98763500DEADAB /* SwiftUIAdvancedLearningApp.swift */,
 				338076222B98768400DEADAB /* ViewModifierBootcamp.swift */,
 				96265BF12B98BA4D000F845A /* ButtonStyleBootcamp.swift */,
+				96265BF32B999D24000F845A /* AnyTrasitionBootcamp.swift */,
 				338076182B98763600DEADAB /* Assets.xcassets */,
 				3380761A2B98763600DEADAB /* Preview Content */,
 			);
@@ -143,6 +146,7 @@
 				96265BF22B98BA4D000F845A /* ButtonStyleBootcamp.swift in Sources */,
 				338076232B98768400DEADAB /* ViewModifierBootcamp.swift in Sources */,
 				338076152B98763500DEADAB /* SwiftUIAdvancedLearningApp.swift in Sources */,
+				96265BF42B999D24000F845A /* AnyTrasitionBootcamp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
