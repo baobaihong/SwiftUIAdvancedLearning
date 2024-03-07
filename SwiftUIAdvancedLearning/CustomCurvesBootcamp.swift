@@ -75,7 +75,7 @@ struct WaterShape: Shape {
     }
 }
 
-struct CusomeCurvesBootcamp: View {
+struct CustomCurvesBootcamp: View {
     var body: some View {
         WaterShape()
             .fill(
@@ -89,6 +89,6 @@ struct CusomeCurvesBootcamp: View {
 }
 
 #Preview {
-    CusomeCurvesBootcamp()
+    CustomCurvesBootcamp()
 }
 
