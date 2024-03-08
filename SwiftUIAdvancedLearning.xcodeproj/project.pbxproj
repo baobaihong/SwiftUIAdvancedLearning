@@ -19,6 +19,9 @@
 		96265BFC2B99BFD1000F845A /* AnimatableDataBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96265BFB2B99BFD1000F845A /* AnimatableDataBootcamp.swift */; };
 		96265BFE2B9AF2B4000F845A /* GenericsBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96265BFD2B9AF2B4000F845A /* GenericsBootcamp.swift */; };
 		96265C002B9AF978000F845A /* ViewBuilderBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96265BFF2B9AF978000F845A /* ViewBuilderBootcamp.swift */; };
+		96265C022B9B0B56000F845A /* PreferenceKeyBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96265C012B9B0B56000F845A /* PreferenceKeyBootcamp.swift */; };
+		96265C052B9B122F000F845A /* GeometryPreferenceKeyBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96265C042B9B122F000F845A /* GeometryPreferenceKeyBootcamp.swift */; };
+		96265C072B9B14DF000F845A /* ScrollViewOffsetPreferenceKeyBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96265C062B9B14DF000F845A /* ScrollViewOffsetPreferenceKeyBootcamp.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +38,9 @@
 		96265BFB2B99BFD1000F845A /* AnimatableDataBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatableDataBootcamp.swift; sourceTree = "<group>"; };
 		96265BFD2B9AF2B4000F845A /* GenericsBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericsBootcamp.swift; sourceTree = "<group>"; };
 		96265BFF2B9AF978000F845A /* ViewBuilderBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewBuilderBootcamp.swift; sourceTree = "<group>"; };
+		96265C012B9B0B56000F845A /* PreferenceKeyBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreferenceKeyBootcamp.swift; sourceTree = "<group>"; };
+		96265C042B9B122F000F845A /* GeometryPreferenceKeyBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometryPreferenceKeyBootcamp.swift; sourceTree = "<group>"; };
+		96265C062B9B14DF000F845A /* ScrollViewOffsetPreferenceKeyBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewOffsetPreferenceKeyBootcamp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +83,7 @@
 				96265BFB2B99BFD1000F845A /* AnimatableDataBootcamp.swift */,
 				96265BFD2B9AF2B4000F845A /* GenericsBootcamp.swift */,
 				96265BFF2B9AF978000F845A /* ViewBuilderBootcamp.swift */,
+				96265C032B9B11FE000F845A /* PreferenceKeyBootcamp */,
 				338076182B98763600DEADAB /* Assets.xcassets */,
 				3380761A2B98763600DEADAB /* Preview Content */,
 			);
@@ -89,6 +96,16 @@
 				3380761B2B98763600DEADAB /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		96265C032B9B11FE000F845A /* PreferenceKeyBootcamp */ = {
+			isa = PBXGroup;
+			children = (
+				96265C012B9B0B56000F845A /* PreferenceKeyBootcamp.swift */,
+				96265C042B9B122F000F845A /* GeometryPreferenceKeyBootcamp.swift */,
+				96265C062B9B14DF000F845A /* ScrollViewOffsetPreferenceKeyBootcamp.swift */,
+			);
+			path = PreferenceKeyBootcamp;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -168,8 +185,11 @@
 				96265BFC2B99BFD1000F845A /* AnimatableDataBootcamp.swift in Sources */,
 				96265C002B9AF978000F845A /* ViewBuilderBootcamp.swift in Sources */,
 				96265BFE2B9AF2B4000F845A /* GenericsBootcamp.swift in Sources */,
+				96265C052B9B122F000F845A /* GeometryPreferenceKeyBootcamp.swift in Sources */,
 				96265BF42B999D24000F845A /* AnyTrasitionBootcamp.swift in Sources */,
 				96265BF62B99A529000F845A /* MatchedGeometryEffectBootcamp.swift in Sources */,
+				96265C022B9B0B56000F845A /* PreferenceKeyBootcamp.swift in Sources */,
+				96265C072B9B14DF000F845A /* ScrollViewOffsetPreferenceKeyBootcamp.swift in Sources */,
 				96265BF82B99AF6E000F845A /* CustomShapesBootcamp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
