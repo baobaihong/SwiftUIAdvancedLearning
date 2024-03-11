@@ -35,6 +35,7 @@
 		96265C1F2B9C98DA000F845A /* CustomNavBarPreferenceKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96265C1E2B9C98DA000F845A /* CustomNavBarPreferenceKeys.swift */; };
 		96265C212B9ED711000F845A /* UIViewRepresentableBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96265C202B9ED711000F845A /* UIViewRepresentableBootcamp.swift */; };
 		96265C232B9EE252000F845A /* UIViewControllerRepresentableBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96265C222B9EE252000F845A /* UIViewControllerRepresentableBootcamp.swift */; };
+		96265C252B9EECD7000F845A /* ProtocolsBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96265C242B9EECD7000F845A /* ProtocolsBootcamp.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -67,6 +68,7 @@
 		96265C1E2B9C98DA000F845A /* CustomNavBarPreferenceKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNavBarPreferenceKeys.swift; sourceTree = "<group>"; };
 		96265C202B9ED711000F845A /* UIViewRepresentableBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewRepresentableBootcamp.swift; sourceTree = "<group>"; };
 		96265C222B9EE252000F845A /* UIViewControllerRepresentableBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerRepresentableBootcamp.swift; sourceTree = "<group>"; };
+		96265C242B9EECD7000F845A /* ProtocolsBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProtocolsBootcamp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +116,7 @@
 				96265C132B9C79A2000F845A /* CustomNaVBar */,
 				96265C202B9ED711000F845A /* UIViewRepresentableBootcamp.swift */,
 				96265C222B9EE252000F845A /* UIViewControllerRepresentableBootcamp.swift */,
+				96265C242B9EECD7000F845A /* ProtocolsBootcamp.swift */,
 				338076182B98763600DEADAB /* Assets.xcassets */,
 				3380761A2B98763600DEADAB /* Preview Content */,
 			);
@@ -256,6 +259,7 @@
 				96265BF62B99A529000F845A /* MatchedGeometryEffectBootcamp.swift in Sources */,
 				96265C022B9B0B56000F845A /* PreferenceKeyBootcamp.swift in Sources */,
 				96265C192B9C818A000F845A /* CustomNavBarContainerView.swift in Sources */,
+				96265C252B9EECD7000F845A /* ProtocolsBootcamp.swift in Sources */,
 				96265C072B9B14DF000F845A /* ScrollViewOffsetPreferenceKeyBootcamp.swift in Sources */,
 				96265BF82B99AF6E000F845A /* CustomShapesBootcamp.swift in Sources */,
 				96265C0E2B9B1E0D000F845A /* CustomTabBarContainerView.swift in Sources */,
