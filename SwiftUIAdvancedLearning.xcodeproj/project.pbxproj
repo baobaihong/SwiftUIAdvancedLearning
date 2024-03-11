@@ -34,6 +34,7 @@
 		96265C1D2B9C8519000F845A /* CustomNavLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96265C1C2B9C8519000F845A /* CustomNavLink.swift */; };
 		96265C1F2B9C98DA000F845A /* CustomNavBarPreferenceKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96265C1E2B9C98DA000F845A /* CustomNavBarPreferenceKeys.swift */; };
 		96265C212B9ED711000F845A /* UIViewRepresentableBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96265C202B9ED711000F845A /* UIViewRepresentableBootcamp.swift */; };
+		96265C232B9EE252000F845A /* UIViewControllerRepresentableBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96265C222B9EE252000F845A /* UIViewControllerRepresentableBootcamp.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -65,6 +66,7 @@
 		96265C1C2B9C8519000F845A /* CustomNavLink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNavLink.swift; sourceTree = "<group>"; };
 		96265C1E2B9C98DA000F845A /* CustomNavBarPreferenceKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNavBarPreferenceKeys.swift; sourceTree = "<group>"; };
 		96265C202B9ED711000F845A /* UIViewRepresentableBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewRepresentableBootcamp.swift; sourceTree = "<group>"; };
+		96265C222B9EE252000F845A /* UIViewControllerRepresentableBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerRepresentableBootcamp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +113,7 @@
 				96265C082B9B1A4C000F845A /* CustomTabBar */,
 				96265C132B9C79A2000F845A /* CustomNaVBar */,
 				96265C202B9ED711000F845A /* UIViewRepresentableBootcamp.swift */,
+				96265C222B9EE252000F845A /* UIViewControllerRepresentableBootcamp.swift */,
 				338076182B98763600DEADAB /* Assets.xcassets */,
 				3380761A2B98763600DEADAB /* Preview Content */,
 			);
@@ -244,6 +247,7 @@
 				96265C172B9C7EF4000F845A /* CustomNavBarView.swift in Sources */,
 				96265C002B9AF978000F845A /* ViewBuilderBootcamp.swift in Sources */,
 				96265BFE2B9AF2B4000F845A /* GenericsBootcamp.swift in Sources */,
+				96265C232B9EE252000F845A /* UIViewControllerRepresentableBootcamp.swift in Sources */,
 				96265C1D2B9C8519000F845A /* CustomNavLink.swift in Sources */,
 				96265C1F2B9C98DA000F845A /* CustomNavBarPreferenceKeys.swift in Sources */,
 				96265C052B9B122F000F845A /* GeometryPreferenceKeyBootcamp.swift in Sources */,
