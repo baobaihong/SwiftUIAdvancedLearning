@@ -36,6 +36,7 @@
 		96265C212B9ED711000F845A /* UIViewRepresentableBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96265C202B9ED711000F845A /* UIViewRepresentableBootcamp.swift */; };
 		96265C232B9EE252000F845A /* UIViewControllerRepresentableBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96265C222B9EE252000F845A /* UIViewControllerRepresentableBootcamp.swift */; };
 		96265C252B9EECD7000F845A /* ProtocolsBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96265C242B9EECD7000F845A /* ProtocolsBootcamp.swift */; };
+		96265C272B9EF907000F845A /* DependencyInjectionBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96265C262B9EF907000F845A /* DependencyInjectionBootcamp.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -69,6 +70,7 @@
 		96265C202B9ED711000F845A /* UIViewRepresentableBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewRepresentableBootcamp.swift; sourceTree = "<group>"; };
 		96265C222B9EE252000F845A /* UIViewControllerRepresentableBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerRepresentableBootcamp.swift; sourceTree = "<group>"; };
 		96265C242B9EECD7000F845A /* ProtocolsBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProtocolsBootcamp.swift; sourceTree = "<group>"; };
+		96265C262B9EF907000F845A /* DependencyInjectionBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DependencyInjectionBootcamp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +119,7 @@
 				96265C202B9ED711000F845A /* UIViewRepresentableBootcamp.swift */,
 				96265C222B9EE252000F845A /* UIViewControllerRepresentableBootcamp.swift */,
 				96265C242B9EECD7000F845A /* ProtocolsBootcamp.swift */,
+				96265C262B9EF907000F845A /* DependencyInjectionBootcamp.swift */,
 				338076182B98763600DEADAB /* Assets.xcassets */,
 				3380761A2B98763600DEADAB /* Preview Content */,
 			);
@@ -257,6 +260,7 @@
 				96265BF42B999D24000F845A /* AnyTrasitionBootcamp.swift in Sources */,
 				96265C122B9B2F5A000F845A /* TabBarItem.swift in Sources */,
 				96265BF62B99A529000F845A /* MatchedGeometryEffectBootcamp.swift in Sources */,
+				96265C272B9EF907000F845A /* DependencyInjectionBootcamp.swift in Sources */,
 				96265C022B9B0B56000F845A /* PreferenceKeyBootcamp.swift in Sources */,
 				96265C192B9C818A000F845A /* CustomNavBarContainerView.swift in Sources */,
 				96265C252B9EECD7000F845A /* ProtocolsBootcamp.swift in Sources */,
