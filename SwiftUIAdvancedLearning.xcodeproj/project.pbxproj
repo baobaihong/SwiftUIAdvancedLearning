@@ -27,6 +27,12 @@
 		96265C0E2B9B1E0D000F845A /* CustomTabBarContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96265C0D2B9B1E0D000F845A /* CustomTabBarContainerView.swift */; };
 		96265C102B9B2D0D000F845A /* TabBarItemsPreferenceKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96265C0F2B9B2D0D000F845A /* TabBarItemsPreferenceKey.swift */; };
 		96265C122B9B2F5A000F845A /* TabBarItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96265C112B9B2F5A000F845A /* TabBarItem.swift */; };
+		96265C152B9C79BA000F845A /* AppNavBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96265C142B9C79BA000F845A /* AppNavBarView.swift */; };
+		96265C172B9C7EF4000F845A /* CustomNavBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96265C162B9C7EF4000F845A /* CustomNavBarView.swift */; };
+		96265C192B9C818A000F845A /* CustomNavBarContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96265C182B9C818A000F845A /* CustomNavBarContainerView.swift */; };
+		96265C1B2B9C82C0000F845A /* CustomNavView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96265C1A2B9C82C0000F845A /* CustomNavView.swift */; };
+		96265C1D2B9C8519000F845A /* CustomNavLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96265C1C2B9C8519000F845A /* CustomNavLink.swift */; };
+		96265C1F2B9C98DA000F845A /* CustomNavBarPreferenceKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96265C1E2B9C98DA000F845A /* CustomNavBarPreferenceKeys.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -51,6 +57,12 @@
 		96265C0D2B9B1E0D000F845A /* CustomTabBarContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBarContainerView.swift; sourceTree = "<group>"; };
 		96265C0F2B9B2D0D000F845A /* TabBarItemsPreferenceKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarItemsPreferenceKey.swift; sourceTree = "<group>"; };
 		96265C112B9B2F5A000F845A /* TabBarItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarItem.swift; sourceTree = "<group>"; };
+		96265C142B9C79BA000F845A /* AppNavBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppNavBarView.swift; sourceTree = "<group>"; };
+		96265C162B9C7EF4000F845A /* CustomNavBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNavBarView.swift; sourceTree = "<group>"; };
+		96265C182B9C818A000F845A /* CustomNavBarContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNavBarContainerView.swift; sourceTree = "<group>"; };
+		96265C1A2B9C82C0000F845A /* CustomNavView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNavView.swift; sourceTree = "<group>"; };
+		96265C1C2B9C8519000F845A /* CustomNavLink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNavLink.swift; sourceTree = "<group>"; };
+		96265C1E2B9C98DA000F845A /* CustomNavBarPreferenceKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNavBarPreferenceKeys.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +107,7 @@
 				96265BFF2B9AF978000F845A /* ViewBuilderBootcamp.swift */,
 				96265C032B9B11FE000F845A /* PreferenceKeyBootcamp */,
 				96265C082B9B1A4C000F845A /* CustomTabBar */,
+				96265C132B9C79A2000F845A /* CustomNaVBar */,
 				338076182B98763600DEADAB /* Assets.xcassets */,
 				3380761A2B98763600DEADAB /* Preview Content */,
 			);
@@ -129,6 +142,19 @@
 				96265C112B9B2F5A000F845A /* TabBarItem.swift */,
 			);
 			path = CustomTabBar;
+			sourceTree = "<group>";
+		};
+		96265C132B9C79A2000F845A /* CustomNaVBar */ = {
+			isa = PBXGroup;
+			children = (
+				96265C142B9C79BA000F845A /* AppNavBarView.swift */,
+				96265C1A2B9C82C0000F845A /* CustomNavView.swift */,
+				96265C1C2B9C8519000F845A /* CustomNavLink.swift */,
+				96265C182B9C818A000F845A /* CustomNavBarContainerView.swift */,
+				96265C162B9C7EF4000F845A /* CustomNavBarView.swift */,
+				96265C1E2B9C98DA000F845A /* CustomNavBarPreferenceKeys.swift */,
+			);
+			path = CustomNaVBar;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -201,6 +227,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				96265C152B9C79BA000F845A /* AppNavBarView.swift in Sources */,
 				96265C102B9B2D0D000F845A /* TabBarItemsPreferenceKey.swift in Sources */,
 				96265C0A2B9B1A64000F845A /* AppTabBarView.swift in Sources */,
 				96265BF22B98BA4D000F845A /* ButtonStyleBootcamp.swift in Sources */,
@@ -209,13 +236,18 @@
 				96265BFA2B99B759000F845A /* CustomCurvesBootcamp.swift in Sources */,
 				96265BFC2B99BFD1000F845A /* AnimatableDataBootcamp.swift in Sources */,
 				96265C0C2B9B1B4A000F845A /* CustomTabBarView.swift in Sources */,
+				96265C1B2B9C82C0000F845A /* CustomNavView.swift in Sources */,
+				96265C172B9C7EF4000F845A /* CustomNavBarView.swift in Sources */,
 				96265C002B9AF978000F845A /* ViewBuilderBootcamp.swift in Sources */,
 				96265BFE2B9AF2B4000F845A /* GenericsBootcamp.swift in Sources */,
+				96265C1D2B9C8519000F845A /* CustomNavLink.swift in Sources */,
+				96265C1F2B9C98DA000F845A /* CustomNavBarPreferenceKeys.swift in Sources */,
 				96265C052B9B122F000F845A /* GeometryPreferenceKeyBootcamp.swift in Sources */,
 				96265BF42B999D24000F845A /* AnyTrasitionBootcamp.swift in Sources */,
 				96265C122B9B2F5A000F845A /* TabBarItem.swift in Sources */,
 				96265BF62B99A529000F845A /* MatchedGeometryEffectBootcamp.swift in Sources */,
 				96265C022B9B0B56000F845A /* PreferenceKeyBootcamp.swift in Sources */,
+				96265C192B9C818A000F845A /* CustomNavBarContainerView.swift in Sources */,
 				96265C072B9B14DF000F845A /* ScrollViewOffsetPreferenceKeyBootcamp.swift in Sources */,
 				96265BF82B99AF6E000F845A /* CustomShapesBootcamp.swift in Sources */,
 				96265C0E2B9B1E0D000F845A /* CustomTabBarContainerView.swift in Sources */,
