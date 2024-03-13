@@ -48,6 +48,7 @@
 		96265C4B2BA05951000F845A /* SwiftUIAdvancedLearning_UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96265C4A2BA05951000F845A /* SwiftUIAdvancedLearning_UITestsLaunchTests.swift */; };
 		96265C522BA05A5F000F845A /* UITestingBootcampView_UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96265C512BA05A5F000F845A /* UITestingBootcampView_UITests.swift */; };
 		9632C4202BA15542006ACA28 /* AdvancedCombineBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9632C41F2BA15542006ACA28 /* AdvancedCombineBootcamp.swift */; };
+		9632C4222BA1A96A006ACA28 /* FuturesBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9632C4212BA1A96A006ACA28 /* FuturesBootcamp.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -112,6 +113,7 @@
 		96265C4A2BA05951000F845A /* SwiftUIAdvancedLearning_UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIAdvancedLearning_UITestsLaunchTests.swift; sourceTree = "<group>"; };
 		96265C512BA05A5F000F845A /* UITestingBootcampView_UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITestingBootcampView_UITests.swift; sourceTree = "<group>"; };
 		9632C41F2BA15542006ACA28 /* AdvancedCombineBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdvancedCombineBootcamp.swift; sourceTree = "<group>"; };
+		9632C4212BA1A96A006ACA28 /* FuturesBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FuturesBootcamp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -182,6 +184,7 @@
 				96265C282B9F0978000F845A /* UnitTestingBootcamp */,
 				96265C402BA054F3000F845A /* UITestingBootcampView.swift */,
 				9632C41F2BA15542006ACA28 /* AdvancedCombineBootcamp.swift */,
+				9632C4212BA1A96A006ACA28 /* FuturesBootcamp.swift */,
 				338076182B98763600DEADAB /* Assets.xcassets */,
 				3380761A2B98763600DEADAB /* Preview Content */,
 			);
@@ -410,6 +413,7 @@
 				96265C172B9C7EF4000F845A /* CustomNavBarView.swift in Sources */,
 				96265C002B9AF978000F845A /* ViewBuilderBootcamp.swift in Sources */,
 				96265BFE2B9AF2B4000F845A /* GenericsBootcamp.swift in Sources */,
+				9632C4222BA1A96A006ACA28 /* FuturesBootcamp.swift in Sources */,
 				96265C232B9EE252000F845A /* UIViewControllerRepresentableBootcamp.swift in Sources */,
 				96265C1D2B9C8519000F845A /* CustomNavLink.swift in Sources */,
 				96265C1F2B9C98DA000F845A /* CustomNavBarPreferenceKeys.swift in Sources */,
